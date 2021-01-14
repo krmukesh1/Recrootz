@@ -1633,6 +1633,13 @@ button.send_1 {
   background-color: #12ccc5;
   font-family: "stdmedium-font";
 }
+.section9 button.send_1 {
+  height: 33px !important;
+  width: 120px !important;
+  margin-top: 0px;
+  border-radius: none !important;
+  border-radius: 0 !important;
+}
 .btn-check:focus + .btn,
 .btn:focus {
   outline: 0;
@@ -1761,7 +1768,10 @@ button.send_2 {
   font-size: 12px;
   font-family: "stdbook-font";
 }
-
+.section10 h5#exampleModalLabel {
+  font-size: 16px;
+  font-family: "stdmedium-font";
+}
 .section10 .modal-header {
   display: flex;
   flex-shrink: 0;
@@ -1773,6 +1783,15 @@ button.send_2 {
 }
 .section10 .modal-body {
   border-bottom: 0;
+}
+.rol h4 {
+  font-size: 14px;
+  /* font-family: "stdmedium-font"; */
+  font-family: "stdbook-font";
+}
+.section10 .align-items-center {
+  align-items: center !important;
+  margin-bottom: 1rem;
 }
 .section10 .form-control {
   background: #f2f4f4;
@@ -1871,7 +1890,10 @@ button.send_2 {
   font-size: 12px;
   font-family: "stdbook-font";
 }
-
+.section11 h5#exampleModalLabel {
+  font-size: 16px;
+  font-family: "stdmedium-font";
+}
 .section11 .modal-header {
   display: flex;
   flex-shrink: 0;
