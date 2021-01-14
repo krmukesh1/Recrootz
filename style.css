@@ -792,8 +792,11 @@ opacity */
   filter: alpha(opacity=0);
   opacity: 0;
 }
-.section5 .col-9.pad_2 {
-  padding: 20px 70px 0 0px;
+.section6 .section5 .col-9.pad_2 {
+  padding: 20px 0px 0 60px;
+}
+.section6 .section5 .col-3.pad_1 {
+  padding: 20px 70px 0 20px;
 }
 .section5 .col-lg-4.col-sm-12.input_2 {
   width: 200px;
@@ -801,6 +804,13 @@ opacity */
   margin: 0px 0px 0 86px;
   padding: 5px;
   border-radius: 13px;
+}
+.section5 img.reume {
+  width: 25px;
+  height: 25px;
+}
+.section5 button.btn {
+  padding: 0;
 }
 .section5 i.fa.fa-plus.resume {
   padding: 0 10px;
