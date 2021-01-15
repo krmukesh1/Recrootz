@@ -20,8 +20,8 @@ ul.navbar-nav.ms-auto.mb-2.mb-lg-0 {
   margin-right: 50px;
 }
 img.bell {
-  height: 31px;
-  width: 32px;
+  height: 25px;
+  width: 25px;
 }
 img.log {
   height: 30px;
@@ -31,10 +31,31 @@ img.logo {
   width: 156px;
   height: 32px;
 }
-
+.ms-auto .btn {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 14px 0.75rem !important;
+  font-size: 16px !important;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  font-weight: 600 !important;
+  font-family: "stdbook-font";
+}
 i.fa.fa-user-circle {
-  font-size: 31px;
-  color: #0bebc6;
+  font-size: 35px;
+  color: #16beb8;
 }
 .btn-check:focus + .btn,
 .btn:focus {
@@ -63,8 +84,30 @@ a {
 .col-9.pad_2 {
   padding: 70px 70px 0 0px;
 }
+/* list */
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  background-color: #f2f4f4 !important;
+  border: 3px solid rgba(0, 0, 0, 0.125);
+  margin-bottom: 3px;
+  font-family: "stdbook-font";
+  font-size: 14px !important;
+  font-weight: 600;
+  height: 42px !important;
+}
+.list-group-item.active {
+  z-index: 2;
+  color: #2b2b2b !important;
+  background-color: #16beb8 !important;
+  border: 2px solid #f2f4f4 !important;
+  font-family: "stdbook-font";
+  font-size: 14px !important;
+}
 /* pad_1 */
-.pad_1 table.table.a {
+/* .pad_1 table.table.a {
   border: 3px solid #f2f4f4;
   background: #f2f4f4;
   font-family: "stdbook-font";
@@ -83,7 +126,7 @@ th.th1 {
 .pad_1 th,
 td {
   padding: 10px !important;
-}
+} */
 /* section_2 */
 .section_2 {
   font-family: stdmedium-font;
@@ -151,7 +194,7 @@ i.fa.fa-bookmark.first {
 /* section_2_2 */
 .section_2_2 {
   font-family: stdmedium-font;
-  margin: 40px 0;
+  margin: 30px 0;
 }
 .section_2_2 h4 {
   font-size: 20px;
