@@ -2325,3 +2325,36 @@ div#emailHelp1 {
 .section15 .section5 .form-control {
   background-color: #f2f4f4;
 }
+/* progress bar */
+.progress-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  background: red;
+  background-color: #ffc107 !important;
+  transition: width 0.6s ease;
+}
+.progress {
+  display: flex;
+  height: 9px !important;
+  overflow: hidden;
+  font-size: 0 !important;
+  border-radius: 0.25rem;
+  width: 60%;
+  margin-left: 112px;
+  border: 1px solid #f2f2f2;
+}
+.pro1 {
+  font-size: 11px;
+  margin-top: -3px;
+}
+#pro_1 {
+  margin-left: 112px;
+}
+.w-75 {
+  width: 88% !important;
+}
