@@ -16,16 +16,42 @@
 .header-wr {
   padding: 0 55px;
 }
+ul.navbar-nav.ms-auto.mb-2.mb-lg-0 {
+  margin-right: 50px;
+}
+img.bell {
+  height: 31px;
+  width: 32px;
+}
+img.log {
+  height: 30px;
+  width: 50px;
+}
+img.logo {
+  width: 156px;
+  height: 32px;
+}
+
+i.fa.fa-user-circle {
+  font-size: 31px;
+  color: #0bebc6;
+}
+.btn-check:focus + .btn,
+.btn:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
 body {
   overflow-x: hidden;
 }
 a {
   text-decoration: none !important;
 }
-.logo-wr-header img {
-  height: 50px;
-  padding-top: 20px;
+.logo-wr-header {
+  height: 30px;
+  margin-left: 50px;
 }
+
 /* section_! */
 .section_1 {
   background-color: #16beb8;
@@ -2354,7 +2380,4 @@ div#emailHelp1 {
 }
 #pro_1 {
   margin-left: 112px;
-}
-.w-75 {
-  width: 88% !important;
 }
