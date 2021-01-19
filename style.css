@@ -186,6 +186,10 @@ i.fa.fa-bookmark.first {
   font-size: 18px;
   font-family: "stddemi-font";
 }
+.dropdown.rec_main.d_last {
+  margin: -41px 0;
+  font-size: 16px;
+}
 .section_2_1 input[type="button"] {
   width: 205px;
   height: 38px;
@@ -212,7 +216,7 @@ i.fa.fa-bookmark.first {
 /* section_2_2 */
 .section_2_2 {
   font-family: stdmedium-font;
-  margin: 30px 0;
+  margin: 30px 0 40px 0;
 }
 .section_2_2 h4 {
   font-size: 18px;
@@ -243,6 +247,7 @@ i.fa.fa-bookmark.first {
   border-radius: 7px;
   padding-bottom: 2rem;
   margin-bottom: 10px;
+  margin-top: 55px;
 }
 .section_3 .clearfix {
   color: #f2f4f4;
@@ -311,9 +316,27 @@ th.view {
 .drop_main {
   margin: -33px -20px 0 50px;
 }
+.sort_main {
+  margin: -33px 4px 0 50px;
+}
+.sort_main button#dropdownMenuButton {
+  font-weight: 600;
+  font-size: 16px;
+}
 .drop_main button#dropdownMenuButton {
   font-weight: 600;
   font-size: 18px;
+}
+.drop_main .dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+  color: #16beb8;
 }
 table.table.table-borderless.table_2 {
   font-size: 12px;
@@ -2454,6 +2477,12 @@ div#emailHelp1 {
   color: #2b2b2b;
   font-size: 12px;
 }
+.section14 .section5 .app_main button#dropdownMenuButton {
+  border: none;
+  width: 80px;
+  font-size: 16px;
+  height: 25px;
+}
 .section14 .section5 input#exampleInputPassword1 {
   height: 100px;
 }
@@ -2536,6 +2565,12 @@ div#emailHelp1 {
   width: 178px;
   color: #2b2b2b;
   font-size: 12px;
+}
+.section15 .section5 .app_main button#dropdownMenuButton {
+  border: none;
+  width: 80px;
+  font-size: 16px;
+  height: 25px;
 }
 .section15 .section5 input#exampleInputPassword1 {
   height: 100px;
