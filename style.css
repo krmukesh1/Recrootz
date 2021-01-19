@@ -895,6 +895,9 @@ section.section5_2_1 h4 {
   color: #2b2b2b;
   background: #f2f4f4;
 }
+.section5_2_1 input.In_1 {
+  background: #12ccc5;
+}
 /* Hide the file input using
 opacity */
 .section5 .input_2 [type="file"] {
@@ -2536,6 +2539,9 @@ div#emailHelp1 {
 }
 .section15 .section5 input#exampleInputPassword1 {
   height: 100px;
+}
+.section15 .section5_2_1_rec input.In_1 {
+  background: #12ccc5;
 }
 .form-control:focus {
   color: #212529;
