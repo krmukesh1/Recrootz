@@ -2610,10 +2610,10 @@ div#dlast3 button#dropdownMenuButton {
   border: 1px solid #f2f2f2;
 }
 /* section15 */
-.section15 .section5 .col-9.pad_2 {
+.section15 .section5 .col-lg-9.pad_2 {
   padding: 20px 0px 0 63px;
 }
-.section15 .section5 .col-3.pad_1 {
+.section15 .section5 .col-lg-3.pad_1 {
   padding: 20px 70px 0 20px;
 }
 .section15 .section5 img.reume {
@@ -3476,4 +3476,26 @@ p.pr1 {
     font-family: "stdmedium-font";
     margin-left: 15px;
   }
+  /* section14 */
+  div#dlast2 button#dropdownMenuButton {
+    font-size: 8px;
+    color: #16beb8;
+    margin: 0 0 0 -47px;
+    font-family: "stdmedium-font";
+    border: none !important;
+  }
+  div#dlast3 button#dropdownMenuButton {
+    font-size: 7px;
+    color: #f2f4f4;
+    margin: 0 0 0 -60px;
+    font-family: "stdmedium-font";
+    border: none !important;
+  }
+  div#dlast6 button#dropdownMenuButton {
+    font-size: 9px;
+    color: #16beb8;
+    margin: 0 0 0 78px;
+    font-family: "stdmedium-font";
+  }
+  /* section15 */
 }
