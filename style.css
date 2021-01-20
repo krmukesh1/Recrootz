@@ -54,6 +54,14 @@ img.logo {
   font-weight: 600 !important;
   font-family: "stdbook-font";
 }
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #f2f4f4 !important;
+}
 i.fa.fa-user-circle {
   font-size: 35px;
   color: #16beb8;
@@ -77,13 +85,12 @@ a {
 /* section_! */
 .section_1 {
   background-color: #16beb8;
-  padding: 0 0 50px 0;
 }
-.col-3.pad_1 {
-  padding: 70px 20px 0 70px;
+.col-lg-3.pad_1 {
+  padding: 50px 20px 50px 70px;
 }
-.col-9.pad_2 {
-  padding: 70px 70px 0 0px;
+.col-lg-9.pad_2 {
+  padding: 50px 70px 50px 0px;
 }
 /* list */
 .list-group-item {
@@ -182,6 +189,7 @@ i.fa.fa-bookmark.first {
   padding-left: 14px;
   color: #2b2b2b;
 }
+
 .section_2_1 h4 {
   font-size: 18px;
   font-family: "stddemi-font";
@@ -255,6 +263,9 @@ i.fa.fa-bookmark.first {
 }
 .section_3 a.ricon3 {
   text-decoration: none !important;
+}
+.section_3 a:hover {
+  color: #f2f4f4;
 }
 .section_3 .right {
   float: right;
@@ -2752,4 +2763,177 @@ p.pr1 {
   background-color: #e74c3c;
   border: #e74c3c;
   color: #fff;
+}
+
+/* Responsive */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  /* page1 */
+  .col-lg-3.pad_1 {
+    padding: 50px 20px 50px 20px;
+  }
+  .col-lg-9.pad_2 {
+    padding: 0 20px 0 20px;
+  }
+  .head.pull-left {
+    float: none !important;
+  }
+  .head.pull-left {
+    text-align: center;
+  }
+  .d-flex.flex-row.pull-right {
+    text-align: center;
+  }
+  .section_2_1 {
+    font-family: "stdmedium-font";
+    background: #12ccc5;
+    height: auto;
+    width: 100%;
+    padding-top: 15px;
+    margin-top: 10px;
+    padding-left: 14px;
+    color: #2b2b2b;
+    padding-bottom: 15px;
+  }
+  .section_2_1 h4 {
+    font-size: 18px;
+    font-family: "stddemi-font";
+    text-align: center;
+  }
+
+  .section_2_1 input[type="button"] {
+    width: 295px;
+    height: 38px;
+    text-align: center;
+    border: 3px solid#f2f4f4;
+    color: #2b2b2b;
+    background: #f2f4f4;
+    font-size: 14px;
+    margin: 2px 0;
+    font-family: "stdmedium-font";
+  }
+  .section_2_2 {
+    font-family: stdmedium-font;
+  }
+  .section_2_2 {
+    font-family: stdmedium-font;
+  }
+  .section_2_2 h4 {
+    font-size: 15px;
+    padding-bottom: 0px;
+  }
+  .section_2_2 input.input_2 {
+    width: 315px;
+    height: 38px;
+    background: #f2f4f4;
+    border: 2px solid #f2f4f4;
+    font-family: "stdbook-font";
+    padding: 0 0 0 25px !important;
+    margin: 3px 4px;
+  }
+  .section_2_2 input.input_2_1 {
+    width: 315px;
+    height: 38px;
+    margin: 3px 4px;
+    text-align: center;
+    font-size: 14px;
+    background: #f2f4f4;
+    border: 2px solid #f2f4f4;
+  }
+  .sort_main button#dropdownMenuButton {
+    font-weight: 600;
+    font-size: 16px;
+    padding-top: 25px;
+  }
+  .section_3 {
+    border: 3px solid#f2f4f4;
+    padding: 10px;
+    font-family: "stdbook-font";
+    border-radius: 7px;
+    padding-bottom: 2rem;
+    margin-bottom: 10px;
+    margin-top: 55px;
+  }
+  /* page2 */
+  .section2 .section_2_1 h4 {
+    font-size: 16px;
+    font-family: "stddemi-font";
+    text-align: left;
+  }
+  .modal-body input[type="text"] {
+    width: 260px;
+    height: 36px;
+    border-radius: 8px;
+    border: 2px solid #ced4da;
+    padding-left: 11px;
+    background: #f2f4f4;
+    margin-top: 2px;
+    /* margin: 0 0; */
+  }
+  .modal-footer input[type="text"] {
+    width: 260px;
+    height: 36px;
+    border-radius: 8px;
+    border: 2px solid #ced4da;
+    padding-left: 11px;
+    background: #f2f4f4;
+    margin-top: 2px;
+  }
+  button.pull-right {
+    width: 90px;
+    height: 36px;
+    background-color: #24bcba;
+    border: none !important;
+    margin-right: -70px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  /* 3rd pages */
+  .section_2_1 h4 {
+    font-size: 18px;
+    font-family: "stddemi-font";
+    text-align: left;
+  }
+  .section3 .modal-content {
+    width: auto;
+  }
+  .section3 .modal-body input[type="text"] {
+    width: 250px;
+    height: 36px;
+    border-radius: 8px;
+    border: 2px solid #ced4da;
+    padding-left: 11px;
+    background: #f2f4f4;
+    margin-top: 2px;
+  }
+  .section3 select.form-select {
+    width: 250px;
+    border-radius: 8px;
+    /* background: #f2f4f4; */
+  }
+  .date_1 {
+    height: 37px;
+    width: 250px;
+    border-radius: 8px;
+    color: #f2f4f4;
+    background: #f2f4f4;
+    border: 2px solid #ced4da;
+    font-size: 20px;
+  }
+  #submit button {
+    width: 250px;
+    height: 40px;
+    font-size: 16px;
+    background: #24bcba;
+    font-weight: 600;
+    border: 2px solid #24bcba;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+  .section3 #button_year select.form-select {
+    width: 248px;
+    border-radius: 8px;
+    height: 37px;
+    margin: 2px 0;
+    /* background: #f2f4f4; */
+  }
 }
