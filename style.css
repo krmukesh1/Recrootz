@@ -2936,4 +2936,34 @@ p.pr1 {
     margin: 2px 0;
     /* background: #f2f4f4; */
   }
+  /* page4 */
+  .section4 .modal-content {
+    width: auto;
+  }
+  .section4 .modal-body input[type="text"] {
+    width: 250px;
+    height: 36px;
+    border-radius: 8px;
+    border: 2px solid #ced4da;
+    padding-left: 11px;
+    background: #f2f4f4;
+    margin-top: 2px;
+  }
+  .section4 select.form-select {
+    width: 205px;
+    border-radius: 8px;
+    /* background: #f2f4f4; */
+    display: inline;
+  }
+  input.kra {
+    width: 205px !important;
+  }
+  .section4 input[type="file"] {
+    width: 250px;
+    height: 37px;
+    border: 2px solid #ced4da;
+    border-radius: 8px;
+    /* text-align: center; */
+    padding: 5px;
+  }
 }
