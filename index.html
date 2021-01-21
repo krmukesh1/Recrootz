@@ -10,180 +10,235 @@
     <!-- css -->
     <link rel="stylesheet" href="style.css" />
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
     <script src="https://use.fontawesome.com/702c04af0b.js"></script>
     <title>Recrootz</title>
   </head>
-  <body> 
-     <!-- 1st page -->
-     <section class="section1">
-    <!-- header -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand"   href="#"><img class="logo-wr-header" src="icons/logo.png"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">
-                  <img class="bell" src="icons/bellll.png">
-
-
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"> <i class="fa fa-user-circle"></i></a>
-            </li>
-            <li class="nav-item">
-              <div class="dropdown">
-                <button class="btn btn-white dropdown-toggle" type="button" id="Rahul Sharma" data-bs-toggle="dropdown" aria-expanded="false">
+  <body>
+    <!-- 1st page -->
+    <section class="section1">
+      <!-- header -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img class="logo-wr-header" src="icons/logo.png"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                  <img class="bell" src="icons/bellll.png" />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                  <i class="fa fa-user-circle"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <div class="dropdown">
+                  <button
+                    class="btn btn-white dropdown-toggle"
+                    type="button"
+                    id="Rahul Sharma"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
                     Rahul Sharma
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="Rahul Sharma">
-                  <li><a class="dropdown-item" href="#">Profile</a></li>
-                  <li><a class="dropdown-item" href="#">Setting</a></li>
-                  <li><a class="dropdown-item" href="#">Guest Login</a></li>
-                </ul>
-              </div>
-            </li>
-           
-           
-          </ul>
-         
-        </div>
-      </div>
-    </nav>
-   
-    <section class="section_1">
-      <div class="conatiner-fluid">
-        <div class="row">
-          <div class=" col-xs-6 col-sm-6 col-md-3 col-lg-3 pad_1">
-            <div class="list-group" id="list-tab" role="tablist">
-              <a style="margin-bottom: 0px;" class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="home">ReecRootz</a>
-              <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Holistic Assessment Test(HAT)</a>
-              <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Skill Assessment Engine</a>
-              <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Reports</a>
-              <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Jobs</a>
-              <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Workforce Mapping</a>
-            </div>
-           
-            <!-- <table class="table a">
-              <thead>
-                <a href="#"> 
-                <tr>
-                <th scope="row" class="th1" style="background-color: #16beb8;">RecRootZ</th>
-                </tr>
-              </a>
-             
-                <tr>
-                 <th scope="row">Holistic Assessment(HAT)</th>
-                </tr>
-              </a>
-              <a href="#">
-                <tr>
-                  <th scope="row">Skill Assessment Engine</th>
-                </tr>
-                </a>
-                <a href="#">
-                <tr>
-                  <th scope="row">Reports</th>
-                </tr>
-                </a>
-                <a href="#">
-                <tr>
-                  <th scope="row">Jobs</th>
-                </tr>
-                </a>
-                <a href="#">
-                <tr>
-                  <th scope="row">Workforce Mapping</th>
-                </tr>
-                </a>
-              </thead>
-            </table> -->
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="Rahul Sharma">
+                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                    <li><a class="dropdown-item" href="#">Setting</a></li>
+                    <li><a class="dropdown-item" href="#">Guest Login</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
           </div>
-          <div class="col-xs-6 col-sm-6 col-md-9 col-lg-9  pad_2">
-            <section class="section_2">
-              <div class="col-12 clearfix">
-                <div class="head pull-left">
-                  <h4>RecRootZ</h4>
-                </div>
-                <div class="d-flex flex-row pull-right">
-                  <div class="icon1" >
-                    <span>Saved Searches </span>
-                    <a href="#"><i class="fa fa-bookmark first"></i></a>
-                    <span class="badge bg-danger badge1">2</span>
-                  </div>
-                  <div class="icon2">
-                    <span> Candidate Pipeline </span>
-                    <a href="#">
-                      <img src="Icons/icons8-pipeline-96.png" />
-                    </a>
-                    <span class="badge bg-danger badge2">12</span>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section class="section_2_1">
-              <h4>catogery</h4>
-              <div class="row">
-                <div class="col-lg-3 col-sm-12 ">
-                  <input
-                    class="In_1"
-                    type="button"
-                    value="Active Jobs (07)"
-                  />
-                </div>
-                <div class="col-lg-3 col-sm-12 input_1">
-                  <input type="button" value="Closed Jobs (03)" />
-                </div>
-                <div class="col-lg-3 col-sm-12 input_1">
-                  <input type="button" value="Paused Jobs (01)" />
-                </div>
-                <div class="col-lg-3 col-sm-12 input_1">
-                <a href="section3.html"> <input type="button" value="Post New Job" /></a> 
-                </div>
-              </div>
-            </section>
-            <section class="section_2_2">
-              <h4>What kind of talent are you looking for?</h4>
-              <div class="row">
-                <div class=" col-xs-12 col-sm-12 col-md-6 col-lg-6  search-block">
-                <span> <i class="fa fa-search icons" aria-hidden="true"></i>
-                  <input
-                    class="input_2"
-                    type="text"
-                    placeholder="search by Job Title,Function,Location etc."
-                  /></span> 
-                </div>
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 ">
-                  
-                  <input class="input_2_1" type="button" value="Search" style="background-color: #16beb8;"/>
-                </div>
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 ">
-               <a href="section2.html">   <input
-                    class="input_2_1"
-                    type="button"
-                    value="Advanced Search"
-                  /></a>
-                </div>
-              </div>
-            </section>
-            <div class="pull-right">
-              <div class="dropdown  sort_main d_last">
-                <button class="btn btn-Info dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-                 Sort by
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
+        </div>
+      </nav>
+
+      <section class="section_1">
+        <div class="conatiner-fluid">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 pad_1">
+              <div class="list-group" id="list-tab" role="tablist">
+                <a
+                  style="margin-bottom: 0px"
+                  class="list-group-item list-group-item-action active"
+                  id="list-home-list"
+                  data-bs-toggle="list"
+                  href="#list-home"
+                  role="tab"
+                  aria-controls="home"
+                  >ReecRootz</a
+                >
+                <a
+                  class="list-group-item list-group-item-action"
+                  id="list-profile-list"
+                  data-bs-toggle="list"
+                  href="#list-profile"
+                  role="tab"
+                  aria-controls="profile"
+                  >Holistic Assessment Test(HAT)</a
+                >
+                <a
+                  class="list-group-item list-group-item-action"
+                  id="list-messages-list"
+                  data-bs-toggle="list"
+                  href="#list-messages"
+                  role="tab"
+                  aria-controls="messages"
+                  >Skill Assessment Engine</a
+                >
+                <a
+                  class="list-group-item list-group-item-action"
+                  id="list-settings-list"
+                  data-bs-toggle="list"
+                  href="#list-settings"
+                  role="tab"
+                  aria-controls="settings"
+                  >Reports</a
+                >
+                <a
+                  class="list-group-item list-group-item-action"
+                  id="list-messages-list"
+                  data-bs-toggle="list"
+                  href="#list-messages"
+                  role="tab"
+                  aria-controls="messages"
+                  >Jobs</a
+                >
+                <a
+                  class="list-group-item list-group-item-action"
+                  id="list-settings-list"
+                  data-bs-toggle="list"
+                  href="#list-settings"
+                  role="tab"
+                  aria-controls="settings"
+                  >Workforce Mapping</a
+                >
               </div>
             </div>
-            <section class="section_3">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9 pad_2">
+              <section class="section_2">
+                <div class="col-12 clearfix">
+                  <div class="head pull-left">
+                    <h4>RecRootZ</h4>
+                  </div>
+                  <div class="d-flex flex-row pull-right">
+                    <div class="icon1">
+                      <span>Saved Searches </span>
+                      <a href="#"><i class="fa fa-bookmark first"></i></a>
+                      <span class="badge bg-danger badge1">2</span>
+                    </div>
+                    <div class="icon2">
+                      <span> Candidate Pipeline </span>
+                      <a href="#">
+                        <img src="Icons/icons8-pipeline-96.png" />
+                      </a>
+                      <span class="badge bg-danger badge2">12</span>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section class="section_2_1">
+                <h4>catogery</h4>
+                <div class="row">
+                  <div class="col-lg-3 col-sm-12 col-xs-12 col-md-6">
+                    <input
+                      class="In_1"
+                      type="button"
+                      value="Active Jobs (07)"
+                    />
+                  </div>
+                  <div class="col-lg-3 col-sm-12 col-xs-12 col-md-6 input_1">
+                    <input type="button" value="Closed Jobs (03)" />
+                  </div>
+                  <div class="col-lg-3 col-sm-12 col-xs-12 col-md-6 input_1">
+                    <input type="button" value="Paused Jobs (01)" />
+                  </div>
+                  <div class="col-lg-3 col-sm-12 col-xs-12 col-md-6 input_1">
+                    <a href="section3.html">
+                      <input type="button" value="Post New Job"
+                    /></a>
+                  </div>
+                </div>
+              </section>
+              <section class="section_2_2">
+                <h4>What kind of talent are you looking for?</h4>
+                <div class="row">
+                  <div
+                    class="col-xs-12 col-sm-12 col-md-6 col-lg-6 search-block"
+                  >
+                    <span>
+                      <i class="fa fa-search icons" aria-hidden="true"></i>
+                      <input
+                        class="input_2"
+                        type="text"
+                        placeholder="search by Job Title,Function,Location etc."
+                    /></span>
+                  </div>
+                  <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                    <input
+                      class="input_2_1"
+                      type="button"
+                      value="Search"
+                      style="background-color: #16beb8"
+                    />
+                  </div>
+                  <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                    <a href="section2.html">
+                      <input
+                        class="input_2_1"
+                        type="button"
+                        value="Advanced Search"
+                    /></a>
+                  </div>
+                </div>
+              </section>
+              <div class="pull-right">
+                <div class="dropdown sort_main d_last">
+                  <button
+                    class="btn btn-Info dropdown-toggle"
+                    type="button"
+                    id="dropdownMenuButton"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Sort by
+                  </button>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton"
+                  >
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <section class="section_3">
               <div class="col-12 clearfix">
                 <div class="pull-left">04 Nov 2020</div>
                 <div class="pull-right right">Status</div>
@@ -356,7 +411,7 @@
                   ></a>
                 </div>
             </section>
-            <section class="section_4">
+              <section class="section_4">
               <div class="col-12 clearfix">
                 <div class="pull-left">02 Nov 2020</div>
                 <div class="pull-right right">Status</div>
@@ -392,7 +447,7 @@
                         ><img class="job_img" src="Icons/icons8-marker-96.png"
                       /></a>
                       <span class="bang_1"> Delhi </span>| Hiring Team
-                      <!-- <span class="seeker"> Team Leader Operations</span> -->
+                      
                     </th>
                     <th scope="col" class="view" style="color: #16beb8;">View Details</th>
                   </tr>
@@ -530,7 +585,7 @@
                   ></a>
                 </div>
             </section>
-            <section class="section_4">
+              <section class="section_4">
               <div class="col-12 clearfix">
                 <div class="pull-left">14 Oct 2020</div>
                 <div class="pull-right right">Status</div>
@@ -576,7 +631,7 @@
                         ><img class="job_img" src="Icons/icons8-marker-96.png"
                       /></a>
                       <span class="bang_1"> Bangalore </span>| Hiring Team
-                      <!-- <span class="seeker"> Team Leader Operations</span> -->
+                     
                     </th>
                     <th scope="col" class="view" style="color: #16beb8;">View Details</th>
                   </tr>
@@ -714,73 +769,87 @@
                   ></a>
                 </div>
             </section>
+            </div>
           </div>
         </div>
-      </div>
-        </section>
-          <!-- footer -->
+      </section>
+      <!-- footer -->
       <footer class="footer-bg">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-3 footer-sec1">
-					<a href="#"><img src="icons/logo.png"></a>
-					<div class="company-info">
-						<p>Top Floor, P.K. Apartments, Dyerton Estate, Khalini, Shimla, Himachal Pradesh - 171002, </p>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 footer-sec1">
+              <a href="#"><img src="icons/logo.png" /></a>
+              <div class="company-info">
+                <p>
+                  Top Floor, P.K. Apartments, Dyerton Estate, Khalini, Shimla,
+                  Himachal Pradesh - 171002,
+                </p>
 
-						<p>+91 98110 99624 <br>
-						+91 96430 02935 </p>
+                <p>
+                  +91 98110 99624 <br />
+                  +91 96430 02935
+                </p>
 
-						<a  class="footer-email" href="#"><p class="footer-email">support@taprootz.in</p></a>
-						<div class="social-icon">
-							<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-							<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-							<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-						</div>
-					</div>
-				</div>
+                <a class="footer-email" href="#"
+                  ><p class="footer-email">support@taprootz.in</p></a
+                >
+                <div class="social-icon">
+                  <a href="#"
+                    ><i class="fa fa-linkedin" aria-hidden="true"></i
+                  ></a>
+                  <a href="#"
+                    ><i class="fa fa-facebook" aria-hidden="true"></i
+                  ></a>
+                  <a href="#"
+                    ><i class="fa fa-twitter" aria-hidden="true"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
 
-				<div class="col-md-3 footer-same footer-sec2">
-					<h3>Employee Zone</h3>
-					<ul>
-						<li><a href="#">- Browse Trending Jobs</a></li>
-						<li><a href="#">- Know the Skills in Demand</a></li>
-						<li><a href="#">- Learn on the Go</a></li>
-						<li><a href="#">- Know Yourself More</a></li>
-						<li><a href="#">- Refer N Earn</a></li>
-					</ul>
-				</div>
+            <div class="col-md-3 footer-same footer-sec2">
+              <h3>Employee Zone</h3>
+              <ul>
+                <li><a href="#">- Browse Trending Jobs</a></li>
+                <li><a href="#">- Know the Skills in Demand</a></li>
+                <li><a href="#">- Learn on the Go</a></li>
+                <li><a href="#">- Know Yourself More</a></li>
+                <li><a href="#">- Refer N Earn</a></li>
+              </ul>
+            </div>
 
-				<div class="col-md-3 footer-same footer-sec3">
-					<h3>Employer Zone</h3>
-					<ul>
-						<li><a href="#">- Post Jobs</a></li>
-						<li><a href="#">- Industry Insights</a></li>
-						<li><a href="#">- Training Modules</a></li>
-						<li><a href="#">- Evaluate Personality</a></li>
-						<li><a href="#">- Performance Excellence Tools</a></li>
-					</ul>
-				</div>
+            <div class="col-md-3 footer-same footer-sec3">
+              <h3>Employer Zone</h3>
+              <ul>
+                <li><a href="#">- Post Jobs</a></li>
+                <li><a href="#">- Industry Insights</a></li>
+                <li><a href="#">- Training Modules</a></li>
+                <li><a href="#">- Evaluate Personality</a></li>
+                <li><a href="#">- Performance Excellence Tools</a></li>
+              </ul>
+            </div>
 
-				<div class="col-md-3 footer-same footer-sec4">
-					<h3>Knowledge Centre</h3>
-					<ul>
-						<li><a href="#">- Webinars</a></li>
-						<li><a href="#">- Blogs</a></li>
-						<li><a href="#">- Forum</a></li>
-						<li><a href="#">- Refund Policy</a></li>
-						<li><a href="#">- Privacy & Policy</a></li>
-						<li><a href="#">- Terms & Conditions</a></li>
-					</ul>
-				</div>
+            <div class="col-md-3 footer-same footer-sec4">
+              <h3>Knowledge Centre</h3>
+              <ul>
+                <li><a href="#">- Webinars</a></li>
+                <li><a href="#">- Blogs</a></li>
+                <li><a href="#">- Forum</a></li>
+                <li><a href="#">- Refund Policy</a></li>
+                <li><a href="#">- Privacy & Policy</a></li>
+                <li><a href="#">- Terms & Conditions</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr />
+        </div>
+      </footer>
+    </section>
 
-			</div>
-			<hr>
-		</div>
-
-       </footer>
-     </section>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-   
- </body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
