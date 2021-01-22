@@ -4252,4 +4252,205 @@ p.pr1 {
     margin-left: 12px;
     border: 1px solid #f2f2f2;
   }
+  /* page7 */
+  .section7 .modal {
+    position: relative !important;
+    top: 0;
+    left: 0;
+    z-index: 0 !important;
+    display: block !important;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    outline: 0;
+    padding: 10px 1px 0px 1px;
+  }
+  .activ h4 {
+    padding: 10px 20px 0 40px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "stdbook-font";
+  }
+  select#drop {
+    border: 1px solid #12ccc5 !important;
+    background-color: #12ccc5 !important;
+    font-size: 14px;
+    height: 37px;
+    width: 200px;
+    border-radius: 0 !important;
+    margin: 30px 20px 10px 40px;
+    color: #2b2b2b !important;
+  }
+  .drop1 {
+    height: 74px;
+    border: 2px solid #12ccc5;
+    background-color: #12ccc5;
+    margin: 25px 40px;
+  }
+  .section7 .col-lg-3.pad_5 {
+    padding: 0px 10px 40px 10px;
+    border-right: 1px solid #2b2b2b;
+    font-family: "stddemi-font";
+    padding-left: 50px;
+  }
+  /* page 8 */
+  .content {
+    margin: 50px 0px 0 0px;
+    background: #f2f4f4;
+  }
+  .section8 .col-lg-3.pad_5 {
+    padding: 0px 10px 40px 10px;
+    border-right: 1px solid #2b2b2b;
+    font-family: "stddemi-font";
+    padding-left: 50px;
+  }
+  /* page9 */
+  .section9 .col-lg-3.pad_5 {
+    padding: 0px 10px 40px 10px;
+    border-right: 1px solid #2b2b2b;
+    font-family: "stddemi-font";
+    padding-left: 50px;
+  }
+  /* section10 */
+  .section10 .col-lg-3.pad_5 {
+    padding: 0px 10px 40px 10px;
+    border-right: 1px solid #2b2b2b;
+    font-family: "stddemi-font";
+    padding-left: 50px;
+  }
+  /* section11 */
+  .section11 .col-lg-3.pad_5 {
+    padding: 0px 10px 40px 10px;
+    border-right: 1px solid #2b2b2b;
+    font-family: "stddemi-font";
+    padding-left: 50px;
+  }
+  /* section12 */
+  .section12 .modal {
+    position: relative !important;
+    top: 0;
+    left: 0;
+    z-index: 0 !important;
+    display: block !important;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    outline: 0;
+    padding: 0px 0px 0px 0px;
+  }
+  .section12 .col-lg-3.pad_5 {
+    padding: 0px 10px 40px 10px;
+    border-right: 1px solid #2b2b2b;
+    font-family: "stddemi-font";
+    padding-left: 50px;
+  }
+  /* section13 */
+  .section13 .modal {
+    position: relative !important;
+    top: 0;
+    left: 0;
+    z-index: 0 !important;
+    display: block !important;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    outline: 0;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .section13 .col-lg-3.pad_5 {
+    padding: 0px 10px 40px 10px;
+    border-right: 1px solid #2b2b2b;
+    font-family: "stddemi-font";
+    padding-left: 50px;
+  }
+  /* section14 */
+  .section14 .section5 .col-lg-9.pad_2 {
+    padding: 20px 0px 0 20px;
+  }
+  .section14 .section5 .col-lg-3.pad_1 {
+    padding: 30px 20px 0 20px;
+  }
+  .rajat_rr .pull-right {
+    float: right;
+    margin-top: -215px;
+  }
+  .section14 .section5_43 .clearfix .profile {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "stdmedium-font";
+    margin: -15px 0 0 110px;
+  }
+  .section14 .section5_44 .clearfix .profile {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "stdmedium-font";
+    margin: -15px 0 0 110px;
+  }
+  button.btn1s {
+    padding: 0px 8px;
+    margin: 3px 5px 19px 5px;
+    border-radius: 14px;
+    border: 1px solid #16beb8;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #16beb8;
+    margin: 3px 5px 90px 32px;
+  }
+  div#dlast6 button#dropdownMenuButton {
+    font-size: 14px;
+    color: #16beb8;
+    margin: 0 0 0 81px;
+    font-family: "stdmedium-font";
+  }
+  div#dlast2 button#dropdownMenuButton {
+    font-size: 14px;
+    color: #16beb8;
+    margin: 0 0 0 20px;
+    font-family: "stdmedium-font";
+    border: none !important;
+  }
+  div#dlast3 button#dropdownMenuButton {
+    font-size: 14px;
+    color: #f2f4f4;
+    margin: 0 0 0 20px;
+    font-family: "stdmedium-font";
+    border: none !important;
+  }
+  .vikram_rr h4 {
+    font-size: 13px;
+    font-family: "stdmedium-font";
+    padding: 0px 24px 0 0px;
+    font-weight: 500;
+  }
+  .vikram_rr h6 {
+    font-size: 12px;
+    font-family: "stdmedium-font";
+    padding: 0px 10px 0 0px;
+    font-weight: 500;
+  }
+  /* page15 */
+  .section15 .section5 .col-lg-9.pad_2 {
+    padding: 20px 0px 0 20px;
+  }
+  .section15 .section5 .col-lg-2.col-sm-12 {
+    margin: 0 40px 0 12px !important;
+  }
+  .section5_2_1_rec input[type="button"] {
+    width: 170px;
+    height: 38px;
+    text-align: center;
+    border: 3px solid#f2f4f4;
+    color: #2b2b2b;
+    background: #f2f4f4;
+  }
+  .section15 .section5_42 input.input_2_1 {
+    width: 200px;
+    height: 37px;
+    background: #f2f4f4;
+    border: none;
+    font-size: 14px;
+    margin-left: -33px;
+    font-weight: 400;
+  }
 }
