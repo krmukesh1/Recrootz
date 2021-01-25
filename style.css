@@ -3596,6 +3596,7 @@ p.pr1 {
   .section14 .section5 .col-lg-3.pad_1 {
     padding: 20px 30px 0 30px;
   }
+
   /* section15 */
   .section15 .section5 .col-lg-9.pad_2 {
     padding: 20px 5px 0 5px;
@@ -3672,6 +3673,10 @@ p.pr1 {
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+  .section_1 {
+    background-color: #16beb8;
+    overflow-x: hidden;
+  }
   .col-lg-9.pad_2 {
     padding: 0px 20px 50px 20px;
   }
@@ -4188,8 +4193,10 @@ p.pr1 {
   }
   /* section 14 */
   .section14 .section5 .col-lg-9.pad_2 {
-    padding: 20px 0px 0 63px;
     padding: 0px 20px 50px 20px;
+  }
+  .section14 .section5 .col-lg-3.pad_1 {
+    padding: 20px 20px 50px 20px;
   }
   div#dlast2 button#dropdownMenuButton {
     font-size: 14px;
@@ -4197,6 +4204,18 @@ p.pr1 {
     margin: 0 0 0 14px;
     font-family: "stdmedium-font";
     border: none !important;
+  }
+  .section14 .section5_43 .clearfix .profile {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "stdmedium-font";
+    margin: -15px 0 0 110px;
+  }
+  .section14 .section5_44 .clearfix .profile {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "stdmedium-font";
+    margin: -15px 0 0 110px;
   }
   div#dlast3 button#dropdownMenuButton {
     font-size: 14px;
@@ -4210,8 +4229,9 @@ p.pr1 {
     margin: 0 0px 0 0px;
   }
   .section15 .section5 .col-lg-9.pad_2 {
-    padding: 20px 10px 0 10px;
+    padding: 20px 10px 50px 10px;
   }
+
   .section5_2_1_rec input[type="button"] {
     width: 319px;
     height: 38px;
@@ -4227,7 +4247,7 @@ p.pr1 {
     padding: 50px 20px 50px 20px;
   }
   .col-lg-9.pad_2 {
-    padding: 50px 20px 0px 0px;
+    padding: 50px 20px 50px 0px;
   }
   .list-group-item {
     position: relative;
@@ -4571,10 +4591,10 @@ p.pr1 {
   }
   /* section14 */
   .section14 .section5 .col-lg-9.pad_2 {
-    padding: 20px 0px 0 20px;
+    padding: 20px 0px 50px 20px;
   }
   .section14 .section5 .col-lg-3.pad_1 {
-    padding: 30px 20px 0 20px;
+    padding: 30px 20px 50px 20px;
   }
   .rajat_rr .pull-right {
     float: right;
@@ -4636,10 +4656,10 @@ p.pr1 {
   }
   /* page15 */
   .section15 .section5 .col-lg-9.pad_2 {
-    padding: 20px 0px 0 20px;
+    padding: 20px 0px 50px 20px;
   }
   .section15 .section5 .col-lg-2.col-sm-12 {
-    margin: 0 40px 0 12px !important;
+    margin: 0 40px 0px 12px !important;
   }
   .section5_2_1_rec input[type="button"] {
     width: 170px;
