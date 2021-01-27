@@ -1711,6 +1711,7 @@ select#drop {
   color: #f2f4f4;
   font-family: "stdbook-font";
 }
+
 /* section 8 */
 .section8 {
   border-top: 8px solid #2b2b2b;
@@ -2472,6 +2473,63 @@ button.button_add:focus {
   border-right: 1px solid #2b2b2b;
   width: 562px;
   height: 1031px;
+}
+.section11 .content .clearfix {
+  /* border-bottom: 2px dotted #2b2b2b; */
+  padding: 10px 20px 10px 20px;
+}
+.modal .drop1 h1 {
+  font-size: 25px;
+  padding: 4px 10px;
+  height: 40px;
+  width: 40px;
+  border: 2px solid #f2f4f4;
+  margin: 8px 0px 0 0px;
+  border-radius: 50%;
+  background: #f2f4f4;
+  color: #12ccc5;
+}
+.section11 .content .clearfix {
+  border-bottom: none !important;
+}
+.modal .drop1 h3 {
+  padding-left: 50px;
+  font-size: 14px;
+  margin-top: -48px;
+}
+.modal .drop1 h6 {
+  padding-left: 50px;
+  font-size: 12px;
+  margin-top: -7px;
+  color: #000;
+  font-family: "stdbook-font";
+}
+.modal .drop1 {
+  height: 74px;
+  border: 2px solid #12ccc5;
+  background-color: #12ccc5;
+  margin: 25px 0px;
+}
+.pull-right.rn {
+  margin: -13px 3px 0 0;
+}
+h3.sm {
+  font-size: 12px !important;
+  margin-left: 98px;
+}
+h6.lg {
+  font-size: 20px !important;
+  margin-left: 60px;
+}
+.section11 .content .modal .clearfix {
+  /* border-bottom: 2px dotted #2b2b2b; */
+  padding: 10px 0px 10px 4px;
+}
+.rn a {
+  color: #fff;
+}
+.rn a:hover {
+  color: #fff;
 }
 /* section14 */
 .section14 .section5 .col-lg-9.pad_2 {
@@ -3461,6 +3519,18 @@ p.pr1 {
   .section11 .pull-right {
     float: right;
     margin-top: -26px;
+  }
+  .pull-right.rn {
+    margin: 50px 3px 0 0;
+  }
+  .pull-right.rn {
+    float: left !important;
+  }
+  .modal .drop1 {
+    height: 134px;
+    border: 2px solid #12ccc5;
+    background-color: #12ccc5;
+    margin: 25px 0px;
   }
   .section11 .col-lg-9.pad_5 {
     padding: 15px 12px 40px 11px;
