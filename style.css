@@ -2429,6 +2429,31 @@ button.send_2 {
   padding: 10px 20px 0 60px;
   font-size: 16px;
 }
+button.button_add {
+  margin: 10px 0 0 250px;
+  height: 20px;
+  width: 125px;
+  font-size: 12px;
+  border-radius: 26px;
+  border: none;
+  background: #16beb8;
+}
+button.button_add:focus {
+  outline: none !important;
+  outline: none !important;
+}
+.hi {
+  margin-left: 590px;
+  width: 300px;
+  margin-top: -124px;
+  font-family: "stddemi-font";
+}
+.hi h6 {
+  font-size: 12px;
+}
+.hi p {
+  font-size: 11px;
+}
 .section13 #resum_2 .jo2 h4 {
   padding: 14px 0px 0px 60px;
   font-size: 12px;
@@ -2774,6 +2799,23 @@ p.pr1 {
   color: #fff;
 }
 
+.line_1,
+.email_2 {
+  color: #16beb8;
+}
+.key input[type="button"] {
+  font-size: 10px;
+  margin: 2px 10px;
+  border: none !important;
+  color: #16beb8;
+}
+.key a.Iplus {
+  font-size: 10px;
+  color: gray;
+}
+#fplus {
+  margin: 0 0 0 20px;
+}
 /* Responsive */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
   .section_1 {
@@ -3518,6 +3560,21 @@ p.pr1 {
     font-family: "stddemi-font";
     /* padding-left: 70px; */
   }
+  button.button_add {
+    margin: 10px 0 0 43px;
+    height: 20px;
+    width: 125px;
+    font-size: 12px;
+    border-radius: 26px;
+    border: none;
+    background: #16beb8;
+  }
+  .hi {
+    margin-left: 26px;
+    width: 294px;
+    margin-top: 21px;
+    font-family: "stddemi-font";
+  }
   .section13 .modal {
     position: relative !important;
     top: 0;
@@ -3543,7 +3600,7 @@ p.pr1 {
   }
   div#resum {
     border-bottom: 1px solid #2b2b2b;
-    margin: 0 10px;
+    margin: 0 13px;
   }
   .section13 div#resum_2 {
     border-bottom: 1px solid #2b2b2b;
@@ -3583,6 +3640,11 @@ p.pr1 {
     margin: 0 0 0 -60px;
     font-family: "stdmedium-font";
     border: none !important;
+  }
+  .section13 .border-right {
+    border-right: 1px solid #2b2b2b;
+    width: 343px;
+    height: 1031px;
   }
   div#dlast6 button#dropdownMenuButton {
     font-size: 9px;
@@ -4186,6 +4248,21 @@ p.pr1 {
     width: 90px;
     font-family: "stdbook-font";
   }
+  button.button_add {
+    margin: 10px 0 0 100px;
+    height: 20px;
+    width: 125px;
+    font-size: 12px;
+    border-radius: 26px;
+    border: none;
+    background: #16beb8;
+  }
+  .hi {
+    margin-left: 370px;
+    width: 200px;
+    margin-top: -124px;
+    font-family: "stddemi-font";
+  }
   .section13 .border-right {
     border-right: 1px solid #2b2b2b;
     width: 348px;
@@ -4582,7 +4659,12 @@ p.pr1 {
     outline: 0;
     padding: 0px 0px 0px 0px;
   }
-
+  .hi {
+    margin-left: 575px;
+    width: 170px;
+    margin-top: -124px;
+    font-family: "stddemi-font";
+  }
   .section13 .col-lg-3.pad_5 {
     padding: 0px 10px 40px 10px;
     border-right: 1px solid #2b2b2b;
